@@ -2098,72 +2098,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/ac-ipad.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.98139e+06,
-		"inputAbbreviatedPath": "\/img\/ac-ipad.png",
-		"outputAbbreviatedPath": "\/img\/ac-ipad.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/ac-iphone-and-ipad.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 165233,
-		"inputAbbreviatedPath": "\/img\/ac-iphone-and-ipad.jpg",
-		"outputAbbreviatedPath": "\/img\/ac-iphone-and-ipad.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/beach-hut-tag.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3290,
-		"inputAbbreviatedPath": "\/img\/beach-hut-tag.png",
-		"outputAbbreviatedPath": "\/img\/beach-hut-tag.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/beach_hut.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4165,
-		"inputAbbreviatedPath": "\/img\/beach_hut.png",
-		"outputAbbreviatedPath": "\/img\/beach_hut.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/beach_hut_logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4078,
-		"inputAbbreviatedPath": "\/img\/beach_hut_logo.png",
-		"outputAbbreviatedPath": "\/img\/beach_hut_logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/beard-profile.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 129095,
-		"inputAbbreviatedPath": "\/img\/beard-profile.jpg",
-		"outputAbbreviatedPath": "\/img\/beard-profile.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/bh-iphone-frt-red.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2545,61 +2479,6 @@
 		"initialSize": 641774,
 		"inputAbbreviatedPath": "\/img\/bh_iphone6_mockup.jpg",
 		"outputAbbreviatedPath": "\/img\/bh_iphone6_mockup.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bh_iphone6_mockup_blue.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 693791,
-		"inputAbbreviatedPath": "\/img\/bh_iphone6_mockup_blue.jpg",
-		"outputAbbreviatedPath": "\/img\/bh_iphone6_mockup_blue.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bh_iphone6_mockup_blue_red.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 654603,
-		"inputAbbreviatedPath": "\/img\/bh_iphone6_mockup_blue_red.jpg",
-		"outputAbbreviatedPath": "\/img\/bh_iphone6_mockup_blue_red.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bh_iphone6_mockup_pink.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 687245,
-		"inputAbbreviatedPath": "\/img\/bh_iphone6_mockup_pink.jpg",
-		"outputAbbreviatedPath": "\/img\/bh_iphone6_mockup_pink.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bh_iphone6_mockup_pink_red.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 640081,
-		"inputAbbreviatedPath": "\/img\/bh_iphone6_mockup_pink_red.jpg",
-		"outputAbbreviatedPath": "\/img\/bh_iphone6_mockup_pink_red.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bh_iphone6_mockup_white_purple.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 604185,
-		"inputAbbreviatedPath": "\/img\/bh_iphone6_mockup_white_purple.jpg",
-		"outputAbbreviatedPath": "\/img\/bh_iphone6_mockup_white_purple.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
