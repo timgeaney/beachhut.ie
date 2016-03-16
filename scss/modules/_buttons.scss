@@ -20,33 +20,32 @@ $color-5: #02aedc; // Cinnabar
 
 
 @mixin btn($color, $text-color) {
-	display: inline-block;
-	text-align: center;
-	padding: 1em 2em;
-	border-radius: 5em;
-	border: 2px solid $text-color;
-	font-family: 'brandon_grotesque_lightRg';
-	font-weight: $font-weight--bold;
-	text-transform: uppercase;
-	transition: all 0.2s;
-	position: relative;
-	color: $text-color;
+  display: inline-block;
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 5em;
+  border: 2px solid $text-color;
+  font-weight: $font-weight--bold;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  position: relative;
+  color: $text-color;
 
-	&:hover {
-		padding-right: 3em;
+  &:hover {
+    padding-right: 3em;
     background: $color;
     color: #fff;
 
-	}
+  }
 }
 
 .btn::after {
-	font-family: FontAwesome;
-	content: "\f138";
-	display: inline-block;
-	position: absolute;
-	right: 1.2em;
-	opacity: 0;
+  font-family: FontAwesome;
+  content: "\f138";
+  display: inline-block;
+  position: absolute;
+  right: 1.2em;
+  opacity: 0;
 
 }
 
@@ -56,8 +55,8 @@ $color-5: #02aedc; // Cinnabar
 }
 
 .btn-phone {
-	font-family: FontAwesome;
-	content: "\f095";
+  font-family: FontAwesome;
+  content: "\f095";
 }
 
 .btn-blue { @include btn(#02aedc, #fff); }
@@ -68,8 +67,6 @@ $color-5: #02aedc; // Cinnabar
 .btn-white { @include btn(#fff, #000); }
 .btn-orange { @include btn(#d4522d, #fff); }
 .btn-purple-nurple { @include btn(#aa87ff, #fff); }
-.btn-clear { @include btn(rgba(#fff, 0.4), #fff); }
-
 
 
 // Ghost buttons
@@ -79,44 +76,44 @@ $color-5: #02aedc; // Cinnabar
   border: $ghost-button-border;
   border-color: $ghost-button-color;
   color: $ghost-button-color;
-	display: $ghost-button-display;
-	height: $ghost-button-height;
-	line-height: $ghost-button-height;
-	margin-top: $ghost-button-height / 3;
-	border-radius: 5em;
-	font-weight: $font-weight--bold;
-	text-transform: uppercase;
-	text-align: center;
+  display: $ghost-button-display;
+  height: $ghost-button-height;
+  line-height: $ghost-button-height;
+  margin-top: $ghost-button-height / 3;
+  border-radius: 5em;
+  font-weight: $font-weight--bold;
+  text-transform: uppercase;
+  text-align: center;
   text-decoration: none;
-	width: $ghost-button-width;
+  width: $ghost-button-width;
   -webkit-transition: .2s;
   -moz-transition: .2s;
   -o-transition: .2s;
    transition: .2s;
 
-	&:hover {
-		background: $ghost-button-color;
+  &:hover {
+    background: $ghost-button-color;
     
-     		@if $ghost-button-color == #FFFFFF {
-      			color: #000000;
-      		}
+        @if $ghost-button-color == #FFFFFF {
+            color: #000000;
+          }
 
-      	@else {
-      			color: #FFFFFF;
-      		}
-  	}
+        @else {
+            color: #FFFFFF;
+          }
+    }
 }
 
 .ghost-button-blue {
-	@include ghost-button(#02aedc, 40px, 175px, 2px solid,  inline-block)
+  @include ghost-button(#02aedc, 40px, 175px, 2px solid,  inline-block)
 }
 
 .ghost-button-white {
-	@include ghost-button(#ffffff, 60px, 200px, 2px solid,  inline-block)
+  @include ghost-button(#ffffff, 60px, 200px, 2px solid,  inline-block)
 }
 
 .scale-btn {
-		border: none;
+    border: none;
     background: #02aedc;
     border-radius: 5em;
     padding: 16px 20px;
@@ -141,7 +138,6 @@ $color-5: #02aedc; // Cinnabar
       @include transform(scale(.9));
     }
 }
-
 
 
 

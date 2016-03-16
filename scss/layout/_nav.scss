@@ -6,6 +6,16 @@ $color-1: #02aedc; // blue
 $color-2: #ab87ff; // red
 $color-3: #fff; // white
 
+$color-4: #40E0D0; 
+$color-5: #8861AA; 
+$color-6: #d4522d; 
+$color-7: #82CE09; 
+$color-8: #d62323; 
+
+
+
+
+
 // fonts 
 
 $primary-font: 'Source Sans Pro', sans-serif;
@@ -21,10 +31,20 @@ $logo-width-M: 40px;
 // z-index 
 
 $content-zindex: 1;
-$nav-zindex: 2;
-$header-zindex: 3;
+$nav-zindex: 20;
+$header-zindex: 30;
 
+// to disable scroll bar without hiding it to stop jenky behaviour when opeing menu
 
+body {
+
+	&.overflow-hidden {
+		/* when primary navigation is visible, the content in the background won't scroll */
+		position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
+	}
+}
 
 
 
@@ -55,7 +75,6 @@ html, body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: rgba($color-1, .95);
 	height: $header-height-S;
 	width: 100%;
 	z-index: $header-zindex;
@@ -105,6 +124,26 @@ html, body {
 	}
 }
 
+.bh-header-blue {
+	background: rgba($color-1, .95) !important;
+}
+
+.bh-header-lime {
+	background: rgba($color-7, .95) !important;
+}
+
+.bh-header-red {
+	background: rgba($color-8, .95) !important;
+}
+
+.bh-header-turquoise {
+	background: rgba($color-4, .95) !important;
+}
+
+.bh-header-purple {
+	background: rgba($color-5, .95) !important;
+}
+
 .bh-logo {
 	display: block;
 	position: absolute;
@@ -147,8 +186,8 @@ html, body {
 
 .bh-secondary-nav {
 	position: absolute;
-	@include center(y);
-	right: 10em;
+	top: 25px;
+	right: 5em;
 	/* hidden on small devices */
 	display: none;
 
@@ -159,9 +198,8 @@ html, body {
 
 	a {
 		display: inline-block;
-		color: $color-3;
 		text-transform: uppercase;
-		font-weight: 700;
+		
 	}
 
 	@include MQ(M) {
@@ -422,16 +460,7 @@ html, body {
 	position: relative;
 	z-index: $content-zindex;
 
-	p {
-		line-height: 1.6;
-		margin: 2em 0;
-	}
-
-	@include MQ(L) {
-		p {
-			@include font-size(20px);
-		}
-	}
+	
 }
 
 // differnet header colors
@@ -442,11 +471,17 @@ html, body {
 		color: $color-1;
 	}
 
+	
+
 	.tag-line {
 		color: #fff;
 	}
 
-	
+	.font-blue {
+		h1 a {
+			color: #02aedc !important;
+		}
+	}
 
 
 
@@ -454,6 +489,12 @@ html, body {
 
 		.bh-menu-text {
 			color: #fff;
+		}
+
+		span.bh-menu-text-blue {
+			a {
+				color: #02aedc;	
+			}
 		}
 		
 	}

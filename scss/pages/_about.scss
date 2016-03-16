@@ -27,17 +27,7 @@ $bio-width-L: 800px; // > 1200px
 
 
 
-body {
-  
 
-  /* prevent ie from showing the horizontal scrollbar */
-  overflow-x: hidden;
-
-  &.overflow-hidden {
-    /* when author bio is visible, the out-of-focus content won't scroll */
-    overflow: hidden;
-  }
-}
 
 ul {
   margin: 0 !important;

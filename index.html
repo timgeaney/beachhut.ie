@@ -6,13 +6,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>tim geaney</title>
+        <title>beach hut</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
-        <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+       
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">  
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/flexslider.css">
 
@@ -25,19 +26,24 @@
         <![endif]-->
 
        <header class="bh-header">
-          <div class="bh-logo"><a href="#0"><img src="img/bh-logo-white-clear.png" alt="Logo"></a></div>
-          <div class="tag-line">
-            <h1><a href="#0">beach hut</a></h1>
+          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-white-clear.png" alt="Logo"></a></div>
+          <div class="tag-line font-blue">
+            <h1><a href="index.html">beach hut</a></h1>
           </div>
 
           <nav>
             <ul class="bh-secondary-nav">
-              
+              <li><label for="modal-1">
+                <div class="btn btn-blue btn-modal modal-trigger">Hire Us</div>
+              </label></li>
+               
            
             </ul>
           </nav> <!-- bh-nav -->
 
+
           <a class="bh-primary-nav-trigger" href="#0">
+
             <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
           </a> <!-- bh-primary-nav-trigger -->
         </header>
@@ -45,14 +51,12 @@
         <!-- modal hire us button-->
 
         <div class="modal">
-          <label for="modal-1">
-            <div class=" bg-orange btn-modal modal-trigger"><i class="fa fa-phone"></i></div>
-          </label>
+          
           <input class="modal-state" id="modal-1" type="checkbox" />
           <div class="modal-fade-screen">
             <div class="modal-inner">
               <div class="modal-close" for="modal-1"></div>
-              <img src="img/beach_hut_logo.png" alt="beach-hut-logo">
+              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
             
               <p class="modal-intro">If you need help planning a web project or have one ready to go why not reach out. We can help.</p>
               <ul>
@@ -94,6 +98,8 @@
           </ul>
         </nav>
 
+        <main class="bh-main-content">
+
         <!-- MOCK-UP SLIDER -->
 
         <section id="mockup-slider">
@@ -119,31 +125,6 @@
 
         <!-- END MOCK-UP SLIDER -->
 
-
-        
-
-        <!-- <div id="wrap" class="wrap">
-        <div class="mockup">
-          <img class="mockup__img" src="img/mockup2.jpg" />
-          <div class="screen">
-            <ul id="slideshow" class="slideshow">
-              <li class="slideshow__item"><img src="img/large/blue.png"/></li>
-              <li class="slideshow__item"><img src="img/large/red.png"/></li>
-              <li class="slideshow__item"><img src="img/large/purple.png"/></li>
-              <li class="slideshow__item"><img src="img/large/4.jpg"/></li>
-            </ul>
-          </div>
-          
-        </div>
-      </div> -->
-
-        <!-- <section class="bh-intro">
-          <div class="frosted">
-            <h1>Web Design and Development</h1>
-            <a href="about.html" class="btn btn-blue bg-blue">Learn More</a> 
-          </div>
-        </section> -->
-        <main>
 
         <section id="intro_steps">
           <h1 class="intro-h1">What we do</h1>
@@ -285,6 +266,7 @@
         <a href="#0" class="bh-top">Top</a>
 
         </main>
+
        
 
       <script src="js/jquery-2.1.1.js"></script>
@@ -298,6 +280,10 @@
           $('.flexslider').flexslider();
 
         });
+      </script>
+
+      <script>
+
       </script>
 
       <script>
