@@ -3,7 +3,7 @@
 // colors
 
 $color-1: #02aedc; // blue
-$color-2: #ab87ff; // red
+$color-2: darken(#C29400 , 0%); // red
 $color-3: #fff; // white
 
 $color-4: #40E0D0; 
@@ -31,8 +31,8 @@ $logo-width-M: 40px;
 // z-index 
 
 $content-zindex: 1;
-$nav-zindex: 20;
-$header-zindex: 30;
+$nav-zindex: 2;
+$header-zindex: 3;
 
 // to disable scroll bar without hiding it to stop jenky behaviour when opeing menu
 
@@ -301,10 +301,10 @@ html, body {
 	/* by default it's hidden - on top of the viewport */
 	position: fixed;
 	left: 0;
-	top: 0;
+	top: 0px;
 	height: 100%;
 	width: 100%;
-	background: rgba($color-1, .96);
+	background: rgba($color-1, .95);
 	z-index: $nav-zindex;
 	text-align: center;
 	padding: $header-height-S 0;
@@ -488,7 +488,7 @@ html, body {
 	.bh-primary-nav-trigger {
 
 		.bh-menu-text {
-			color: #fff;
+			color: #02aedc;
 		}
 
 		span.bh-menu-text-blue {
@@ -500,9 +500,26 @@ html, body {
 	}
 
 
+.nav-trigger-blue {
+	color: #02aedc;
+
+		.bh-menu-text {
+			color: #02aedc;
+		}
+
+		
+	}
 
 
 
 
+}
 
+.pd-top-40 {
+	padding-top: 40px;
+}
+
+
+.bh-menu-round {
+	
 }

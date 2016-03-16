@@ -1,12 +1,15 @@
 .image-inline-left {
-	padding-bottom: 2em;
-	padding-top: 2em;
+	@include outer-container($site-width);
+	padding-bottom: 4em;
+	padding-top: 4em;
 
 	.img-inline {
 	@include span-columns(7);
 
 	img {
-		max-height: 400px;	
+		overflow: hidden;
+
+		
 	}
 
 

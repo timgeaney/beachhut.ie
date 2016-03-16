@@ -683,7 +683,7 @@ html, body {
   left: 0;
   height: 50px;
   width: 100%;
-  z-index: 30;
+  z-index: 3;
   box-shadow: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -865,11 +865,11 @@ html, body {
   /* by default it's hidden - on top of the viewport */
   position: fixed;
   left: 0;
-  top: 0;
+  top: 0px;
   height: 100%;
   width: 100%;
-  background: rgba(2, 174, 220, 0.96);
-  z-index: 20;
+  background: rgba(2, 174, 220, 0.95);
+  z-index: 2;
   text-align: center;
   padding: 50px 0;
   -webkit-backface-visibility: hidden;
@@ -901,7 +901,7 @@ html, body {
     -webkit-transition: background 0.2s;
     transition: background 0.2s; }
     .no-touch .bh-primary-nav a:hover {
-      background-color: #ab87ff; }
+      background-color: #c29400; }
   .bh-primary-nav .bh-label {
     color: #014a5e;
     text-transform: uppercase;
@@ -1003,9 +1003,16 @@ html, body {
   .bg-white .font-blue h1 a {
     color: #02aedc !important; }
   .bg-white .bh-primary-nav-trigger .bh-menu-text {
-    color: #fff; }
+    color: #02aedc; }
   .bg-white .bh-primary-nav-trigger span.bh-menu-text-blue a {
     color: #02aedc; }
+  .bg-white .nav-trigger-blue {
+    color: #02aedc; }
+    .bg-white .nav-trigger-blue .bh-menu-text {
+      color: #02aedc; }
+
+.pd-top-40 {
+  padding-top: 40px; }
 
 /* ==========================================================================
    footer dir= scss/modules/footer.scss
@@ -2326,7 +2333,7 @@ Main components
 -------------------------------- */
 main {
   position: relative;
-  z-index: 2;
+  z-index: 50;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
@@ -2468,7 +2475,7 @@ main {
   /* smooth scrolling on mobile phones and tablets */
   -webkit-overflow-scrolling: touch;
   background: #fff;
-  z-index: 1;
+  z-index: 40;
   /* this how we move the author bio section off the canvas */
   -webkit-transform: translateX(320px);
   transform: translateX(320px);
@@ -2546,7 +2553,7 @@ main {
   background: url("../img/cd-icon-close.svg") no-repeat center center;
   text-indent: 100%;
   white-space: nowrap;
-  z-index: 3;
+  z-index: 60;
   display: none; }
   .cd-member-bio-close.is-visible {
     display: block;
@@ -3754,8 +3761,15 @@ Javascript disabled
     padding: 2em; }
 
 .image-inline-left {
-  padding-bottom: 2em;
-  padding-top: 2em; }
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4em;
+  padding-top: 4em; }
+  .image-inline-left::after {
+    clear: both;
+    content: "";
+    display: table; }
   .image-inline-left .img-inline {
     float: left;
     display: block;
@@ -3764,7 +3778,7 @@ Javascript disabled
     .image-inline-left .img-inline:last-child {
       margin-right: 0; }
     .image-inline-left .img-inline img {
-      max-height: 400px; }
+      overflow: hidden; }
   .image-inline-left .text-wrap {
     position: relative;
     height: 400px;
@@ -3785,8 +3799,9 @@ Javascript disabled
         text-align: left; }
 
 .image-inline-right {
-  padding-bottom: 2em;
-  margin-top: 2em; }
+  padding-bottom: 4em;
+  margin-top: 4em;
+  margin-bottom: 4em; }
   .image-inline-right .img-inline {
     float: left;
     display: block;
