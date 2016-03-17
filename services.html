@@ -25,26 +25,62 @@
 
       <main>
 
-       <header class="bh-header bh-header-blue">
-          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-white-clear.png" alt="Logo"></a></div>
-          <div class="tag-line">
+       <header class="bh-header bg-white">
+          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-blue.png" alt="Logo"></a></div>
+          <div class="tag-line font-blue">
             <h1>beach hut</h1>
           </div>
 
           <nav>
             <ul class="bh-secondary-nav">
+              <li><label for="modal-1">
+                <div class="btn btn-blue bg-blue btn-modal modal-trigger">Hire Us</div>
+              </label></li>
+              <li><a href="">Projects</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact</a></li>
               
+               
+           
             </ul>
           </nav> <!-- bh-nav -->
 
+
           <a class="bh-primary-nav-trigger" href="#0">
+
             <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
           </a> <!-- bh-primary-nav-trigger -->
         </header>
 
+        <!-- modal hire us button-->
+
+        <div class="modal">
+          
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-fade-screen">
+            <div class="modal-inner">
+              <div class="modal-close" for="modal-1"></div>
+              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
+            
+              <p class="modal-intro">If you need help planning a web project or have one ready to go why not reach out. We can help.</p>
+              <ul>
+                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
+                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhut.ie</a></li>
+                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
+              </ul>
+                <p></p>
+              <p class="modal-content"></p>
+              
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- end modal hire us button section -->
+
         <nav>
-          <ul class="bh-primary-nav bg-blue">
-            <li class="bh-label">About us</li>
+          <ul class="bh-primary-nav">
+            <li class="bh-label pd-top-40">About us</li>
 
             <li><a href="about.html">The team</a></li>
             <li><a href="services.html">Our services</a></li>
@@ -61,36 +97,9 @@
             
             <li class="bh-social bh-facebook"><a href="#0">Facebook</a></li>
             <li class="bh-social bh-instagram"><a href="#0">Instagram</a></li>
-            <li class="bh-social bh-dribbble"><a href="#0">Dribbble</a></li>
             <li class="bh-social bh-twitter"><a href="#0">Twitter</a></li>
           </ul>
         </nav>
-
-        <!-- modal hire us button-->
-
-        <div class="modal">
-          <label for="modal-1">
-             <div class="btn btn-blue btn-modal modal-trigger">Hire Us</div>
-          </label>
-          <input class="modal-state" id="modal-1" type="checkbox" />
-          <div class="modal-fade-screen">
-            <div class="modal-inner">
-              <div class="modal-close" for="modal-1"></div>
-              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
-            
-              <p class="modal-intro">If you have a project ready to go or you just need advice why not give us a call.</p>
-              <ul>
-                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
-                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhutinc.com</a></li>
-                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
-              </ul>
-                <p></p>
-              <p class="modal-content"></p>
-              
-              <p></p>
-            </div>
-          </div>
-        </div>
 
         <!-- end modal hire us button section -->
 

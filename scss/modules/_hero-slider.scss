@@ -107,7 +107,7 @@ Single slide style
 
 	li:first-of-type {
 		background-color: $color-1;
-			// background-image: url('../img/bh-team.png');
+			background-image: url('../img/bh-home-intro.jpg');
 	}
 
 	li:nth-of-type(2) {
@@ -485,6 +485,7 @@ Slider navigation
 
 	li:first-of-type a::before {
 		background-position: 0 0;
+	
 	}
 
 	li.selected:first-of-type a::before {

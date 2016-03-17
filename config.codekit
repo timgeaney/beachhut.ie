@@ -2644,6 +2644,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bh-creative.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30612,
+		"inputAbbreviatedPath": "\/img\/bh-creative.png",
+		"outputAbbreviatedPath": "\/img\/bh-creative.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh-home-intro-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 418881,
+		"inputAbbreviatedPath": "\/img\/bh-home-intro-1.png",
+		"outputAbbreviatedPath": "\/img\/bh-home-intro-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh-home-intro-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 177951,
+		"inputAbbreviatedPath": "\/img\/bh-home-intro-2.jpg",
+		"outputAbbreviatedPath": "\/img\/bh-home-intro-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh-home-intro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178839,
+		"inputAbbreviatedPath": "\/img\/bh-home-intro.jpg",
+		"outputAbbreviatedPath": "\/img\/bh-home-intro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh-home-intro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.31424e+06,
+		"inputAbbreviatedPath": "\/img\/bh-home-intro.png",
+		"outputAbbreviatedPath": "\/img\/bh-home-intro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bh-logo-blue.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2761,6 +2816,39 @@
 		"initialSize": 115401,
 		"inputAbbreviatedPath": "\/img\/bh-promo.jpg",
 		"outputAbbreviatedPath": "\/img\/bh-promo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh-team-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140938,
+		"inputAbbreviatedPath": "\/img\/bh-team-1.jpg",
+		"outputAbbreviatedPath": "\/img\/bh-team-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh-team-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 420839,
+		"inputAbbreviatedPath": "\/img\/bh-team-1.png",
+		"outputAbbreviatedPath": "\/img\/bh-team-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh-team-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107082,
+		"inputAbbreviatedPath": "\/img\/bh-team-2.png",
+		"outputAbbreviatedPath": "\/img\/bh-team-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2923,7 +3011,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 253439,
+		"initialSize": 257990,
 		"inputAbbreviatedPath": "\/img\/mac-moc.jpg",
 		"outputAbbreviatedPath": "\/img\/mac-moc.jpg",
 		"outputPathIsOutsideProject": 0,

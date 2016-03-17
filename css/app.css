@@ -999,9 +999,9 @@ html, body {
 .bg-white {
   background: transparent; }
   .bg-white a {
-    color: #fff; }
+    color: #02aedc; }
   .bg-white .tag-line {
-    color: #fff; }
+    color: #02aedc; }
   .bg-white .font-blue h1 a {
     color: #02aedc !important; }
   .bg-white .bh-primary-nav-trigger .bh-menu-text {
@@ -1286,11 +1286,12 @@ html, body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
+  background: #02aedc;
   color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
   .btn-blue:hover {
     padding-right: 3em;
-    background: #02aedc;
+    background: #02c2f5;
     color: #fff; }
 
 .btn-clear {
@@ -1303,11 +1304,12 @@ html, body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
+  background: transparent;
   color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
   .btn-clear:hover {
     padding-right: 3em;
-    background: transparent;
+    background: rgba(13, 13, 13, 0);
     color: #fff; }
 
 .btn-darkblue {
@@ -1320,11 +1322,12 @@ html, body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
+  background: #1b49be;
   color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
   .btn-darkblue:hover {
     padding-right: 3em;
-    background: #1b49be;
+    background: #1e52d4;
     color: #fff; }
 
 .btn-dark {
@@ -1337,11 +1340,12 @@ html, body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
+  background: #252525;
   color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
   .btn-dark:hover {
     padding-right: 3em;
-    background: #252525;
+    background: #323232;
     color: #fff; }
 
 .btn-purple {
@@ -1354,11 +1358,12 @@ html, body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
+  background: #8861aa;
   color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
   .btn-purple:hover {
     padding-right: 3em;
-    background: #8861aa;
+    background: #9472b3;
     color: #fff; }
 
 .btn-red {
@@ -1371,11 +1376,12 @@ html, body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
+  background: #d62323;
   color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
   .btn-red:hover {
     padding-right: 3em;
-    background: #d62323;
+    background: #de3535;
     color: #fff; }
 
 .btn-white {
@@ -1388,11 +1394,12 @@ html, body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
-  color: #000;
+  background: #ccc;
+  color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
   .btn-white:hover {
     padding-right: 3em;
-    background: #fff;
+    background: #d9d9d9;
     color: #fff; }
 
 .btn-orange {
@@ -1405,11 +1412,12 @@ html, body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
+  background: #d4522d;
   color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
   .btn-orange:hover {
     padding-right: 3em;
-    background: #d4522d;
+    background: #d86342;
     color: #fff; }
 
 .btn-purple-nurple {
@@ -1422,11 +1430,12 @@ html, body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
+  background: #aa87ff;
   color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
   .btn-purple-nurple:hover {
     padding-right: 3em;
-    background: #aa87ff;
+    background: #bca1ff;
     color: #fff; }
 
 .ghost-button-blue {
@@ -2427,6 +2436,11 @@ img {
 .hide-nav {
   display: none; }
 
+/* -------------------------------- 
+
+Hero image section
+
+-------------------------------- */
 /* -------------------------------- 
 
 Modules - reusable parts of our design
@@ -4305,7 +4319,8 @@ Single slide style
   background-size: cover;
   background-repeat: no-repeat; }
 .cd-hero-slider li:first-of-type {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  background-image: url("../img/bh-home-intro.jpg"); }
 .cd-hero-slider li:nth-of-type(2) {
   background-color: white;
   background-image: url("../assets/tech-1-mobile.jpg"); }
@@ -4899,5 +4914,8 @@ Javascript disabled
 
 .bg-turquoise {
   background-color: #40E0D0; }
+
+.bg-white {
+  background-color: #fff; }
 
 /*# sourceMappingURL=app.css.map */
