@@ -133,7 +133,7 @@ a {
 	color: $dark-grey;
     font-family:  'brandon_grotesque_lightRg';
 	text-decoration: none;
-	font-weight: $font-weight--medium;
+	
 	&:hover {
 		color:blue;
 	}
@@ -189,7 +189,7 @@ h2 {
  	color: darken(#ccc, 10%);
  	font-family: 'GoudyItalic', serif; /* 1 */
  	font-weight: normal;
- 	font-size: 2.25em;
+ 	font-size: 3.1em;
  	line-height: 1em;
  	text-align: center;
  	}

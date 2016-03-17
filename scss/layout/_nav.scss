@@ -2,9 +2,9 @@
 
 // colors
 
-$color-1: #02aedc; // blue
-$color-2: darken(#C29400 , 0%); // red
-$color-3: #fff; // white
+$color-1: #fff; // blue
+$color-2: darken(#e3e3e3 , 0%); //
+$color-3: #02aedc; // white
 
 $color-4: #40E0D0; 
 $color-5: #8861AA; 
@@ -16,9 +16,7 @@ $color-8: #d62323;
 
 
 
-// fonts 
 
-$primary-font: 'Source Sans Pro', sans-serif;
 
 //header height
 
@@ -86,12 +84,12 @@ html, body {
 	@include MQ(M) {
 		height: $header-height-M;
 		background: transparent;
-		// background: #02aedc;
+		// background: $color-3;
 		box-shadow: none;
 	}
 
 	a {
-		color: #fff;
+		color: $color-3;
 	}
 
 	@include MQ(L) {
@@ -119,7 +117,7 @@ html, body {
 
 		&.menu-is-open {
 			/* add a background color to the header when the navigation is open */
-			background-color: rgba($color-1, .96);
+			background-color: rgba(#fff, .96);
 		}
 	}
 }
@@ -174,7 +172,7 @@ html, body {
 	left: 45px;
 	top: 15px;
 	font-size: 0.6em;
-	color: #fff;
+	color: #02aedc;
 	animation: fadeInDown 2s .2s backwards;
 
 		@include MQ(M) {
@@ -186,19 +184,24 @@ html, body {
 
 .bh-secondary-nav {
 	position: absolute;
-	top: 25px;
-	right: 5em;
+	top: 28px;
+	right: 280px;
 	/* hidden on small devices */
 	display: none;
 
 	li {
 		display: inline-block;
 		margin-left: 2.2em;
+	
 	}
 
 	a {
 		display: inline-block;
-		text-transform: uppercase;
+		text-transform: none;
+		color: $color-3;
+		&:hover {
+			border-bottom: 1px solid $color-3;
+		}
 		
 	}
 
@@ -328,7 +331,7 @@ html, body {
 	}
 
 	a {
-		color: #fff;
+		color: $color-3;
 		display: inline-block;
 		padding: .4em 1em;
 		@include border-radius;
@@ -479,7 +482,7 @@ html, body {
 
 	.font-blue {
 		h1 a {
-			color: #02aedc !important;
+			color: $color-3 !important;
 		}
 	}
 
@@ -488,12 +491,12 @@ html, body {
 	.bh-primary-nav-trigger {
 
 		.bh-menu-text {
-			color: #02aedc;
+			color: $color-3;
 		}
 
 		span.bh-menu-text-blue {
 			a {
-				color: #02aedc;	
+				color: $color-3;	
 			}
 		}
 		

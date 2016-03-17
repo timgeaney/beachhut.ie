@@ -17,7 +17,7 @@
        
         <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">  
         <link rel="stylesheet" href="css/app.css">
-        <link rel="stylesheet" href="css/flexslider.css">
+        <!-- <link rel="stylesheet" href="css/flexslider.css"> -->
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
@@ -28,16 +28,20 @@
         <![endif]-->
 
        <header class="bh-header">
-          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-white-clear.png" alt="Logo"></a></div>
+          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-blue.png" alt="Logo"></a></div>
           <div class="tag-line font-blue">
-            <h1><a href="index.html">beach hut</a></h1>
+            <h1>beach hut</h1>
           </div>
 
           <nav>
             <ul class="bh-secondary-nav">
               <li><label for="modal-1">
-                <div class="btn btn-blue btn-modal modal-trigger">Hire Us</div>
+                <div class="btn btn-blue bg-blue btn-modal modal-trigger">Hire Us</div>
               </label></li>
+              <li><a href="">Projects</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact</a></li>
+              
                
            
             </ul>
@@ -101,9 +105,90 @@
 
         <main class="bh-main-content">
 
+          <!-- HERO SLIDER -**********************************
+          **************************************************** -->
+
+          <section class="cd-hero">
+        <ul class="cd-hero-slider">
+          <li class="selected">
+            <div class="cd-full-width">
+              <h1>Design &amp; Development for Web &amp; Mobile </h1>
+              <p></p>
+              <p>We are a modern and creative design team that focus on helping our clients succeed online.</p>
+              <a href="#" class="btn btn-blue bg-blue">Lets Get Started</a>
+            </div> <!-- .cd-full-width -->
+          </li>
+
+          <li>
+            <div class="cd-half-width">
+              <h2>Slide title here</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+              <a href="#0" class="btn btn-blue bg-blue">Start</a>
+              <a href="#0" class="btn btn-blue bg-purple">Learn More</a>
+            </div> <!-- .cd-half-width -->
+
+            <div class="cd-half-width cd-img-container">
+              <img src="img/bh-mu-mac-ac.png" alt="tech 1">
+            </div> <!-- .cd-half-width.cd-img-container -->
+          </li>
+
+          <li>
+            <div class="cd-half-width cd-img-container">
+              <img src="img/ipad-animation.gif" alt="tech 2">
+            </div> <!-- .cd-half-width.cd-img-container -->
+
+            <div class="cd-half-width">
+              <h2>Slide title here</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+              <a href="#0" class="cd-btn">Start</a>
+              <a href="#0" class="cd-btn secondary">Learn More</a>
+            </div> <!-- .cd-half-width -->
+            
+          </li>
+
+          <li class="cd-bg-video">
+            <div class="cd-full-width">
+              
+            </div> <!-- .cd-full-width -->
+
+            
+              <div class="cd-bg-video-wrapper" data-video="img/video/video">
+                <!-- video element will be loaded using jQuery -->
+              </div> <!-- .cd-bg-video-wrapper -->
+        
+          </li>
+
+          <li>
+            <div class="cd-full-width">
+              <h2>Slide title here</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
+              <a href="#0" class="btn btn-blue bg-blue">Start</a>
+              <a href="#0" class="cd-btn secondary">Learn More</a>
+            </div> <!-- .cd-full-width -->
+          </li>
+        </ul> <!-- .cd-hero-slider -->
+
+        <div class="cd-slider-nav">
+          <nav>
+            <span class="cd-marker item-1"></span>
+            
+            <ul>
+              <li class="selected"><a href="#0">Intro</a></li>
+              <li><a href="#0">Tech 1</a></li>
+              <li><a href="#0">Tech 2</a></li>
+              <li><a href="#0">Video</a></li>
+              <li><a href="#0">Image</a></li>
+            </ul>
+          </nav> 
+        </div> <!-- .cd-slider-nav -->
+      </section> <!-- .cd-hero -->
+
+      <!-- END HERO SLIDER -**********************************
+          **************************************************** -->
+
         <!-- MOCK-UP SLIDER -->
 
-        <section id="mockup-slider">
+        <!-- <section id="mockup-slider">
           <div id="wrap" class="wrap">
             <div class="mockup">
               <img class="mockup__img" src="img/mockup.jpg" />
@@ -122,49 +207,49 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
 
         <!-- END MOCK-UP SLIDER -->
 
 
         <section id="intro_steps">
-          <h1 class="intro-h1">What we do</h1>
+          <h2 class="intro-h1">What we do</h2>
   
-          <div  class="step">
+          <div  class="step step-lime">
             <div id="js-fadeInElement">
               <svg xmlns="http://www.w3.org/2000/svg" width="128px" height="128px" viewBox="0 0 24 24"><g class="animate-element"  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path class="animate-element"  d="M9.5 21.5c0 1.104-.896 2-2 2-1.105 0-2-.896-2-2v-13.5l2-4.5 2 4.5v13.5zM5.5 20.5h4M5.5 18.5h4"/><path class="animate-element" d="M12.5.5h6v23h-6zM12.5 3.5h2M12.5 7.5h2M12.5 11.5h2M12.5 15.5h2M12.5 19.5h2M5.5 8h4M7.5 8v10.5"/></g></svg>
             </div>
 
             <div class="step-content" id="step-content">
               <h5>Design</h5>
-              <hr class="big-hr">
-              <p><span>We design websites.......</span>
+              
+              <p><span>We design websites</span>
               </p>
             </div>
           </div>
 
 
-          <div class="step">
+          <div class="step bg-purple">
             <div id="js-fadeInElement-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g  stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path d="M8.254 17.941l9.613-9.613c1.456.617 3.201.334 4.389-.854 1.187-1.186 1.469-2.859.853-4.314l-1.913 1.988h-2.121v-2.27l1.915-1.914c-1.458-.617-3.204-.334-4.391.854s-1.47 2.932-.854 4.389l-9.612 9.613c-1.456-.617-3.202-.334-4.389.854s-1.47 2.932-.854 4.389l1.914-1.914h2.27v2.121l-1.988 1.914c1.457.615 3.165.332 4.352-.854 1.187-1.185 1.432-2.934.816-4.389zM11.999 9.951l-3.745-3.744c.616-1.457.334-3.201-.854-4.389-1.186-1.187-2.857-1.47-4.314-.853l1.988 1.914v2.27h-2.27l-1.913-1.989c-.617 1.455-.333 3.164.853 4.352s2.933 1.451 4.389.836l3.746 3.734M11.999 14.193l3.747 3.748c-.616 1.457-.334 3.203.854 4.389 1.187 1.188 2.933 1.469 4.39.854l-1.915-1.914v-2.121h2.121l1.914 1.914c.616-1.457.333-3.201-.854-4.389s-2.933-1.471-4.389-.854l-3.745-3.746"/></g></svg>
             </div>
 
             <div class="step-content" id="step-content-2">
               <h5>Build</h5>
-              <hr class="big-hr">
+           
               <p><span>.....then we build them to the highest standards using best practice.....</span>
               </p>
             </div>
           </div>
 
-          <div class="step">
+          <div class="step bg-turquoise">
             <div id="js-fadeInElement-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="128px" height="128px" viewBox="0 0 24 24"><g><path  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M23.5 16.5c0 .551-.443 1.078-.984 1.172l-9.53 1.658c-.542.095-1.429.095-1.97 0l-9.53-1.658c-.543-.094-.986-.621-.986-1.172v-11.998c0-.55.45-1 1-1h21c.551 0 1 .45 1 1v11.998z" fill="none"/><path  stroke-linejoin="round" stroke-miterlimit="10" fill="none" d="M2.5 5.502h19v10h-19z"/><path d="M12 17c-.276 0-.5.225-.5.5 0 .277.224.5.5.5s.5-.223.5-.5c0-.275-.224-.5-.5-.5z"/><path  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" d="M10 19.143v2.937M14 19.143v2.953M19.409 23.5c-1.741-.912-4.41-1.5-7.409-1.5-2.998 0-5.668.588-7.409 1.5"/></g></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="128px" height="128px" viewBox="0 0 24 24"><g><path  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M23.5 16.5c0 .551-.443 1.078-.984 1.172l-9.53 1.658c-.542.095-1.429.095-1.97 0l-9.53-1.658c-.543-.094-.986-.621-.986-1.172v-11.998c0-.55.45-1 1-1h21c.551 0 1 .45 1 1v11.998z" fill="none"/><path  stroke-linejoin="round" stroke-miterlimit="10" fill="none" d="M2.5 5.502h19v10h-19z"/><path  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" d="M10 19.143v2.937M14 19.143v2.953M19.409 23.5c-1.741-.912-4.41-1.5-7.409-1.5-2.998 0-5.668.588-7.409 1.5"/></g></svg>
             </div>
 
             <div class="step-content" id="step-content-3">
               <h5>launch</h5>
-              <hr class="big-hr">
+             
               <p><span>..and then we Launch them to the world. </span>
               </p>
             </div>
@@ -174,23 +259,8 @@
 
         <!-- Services Slider Section -->
 
-      
-          <section id="bh-slider">
-            <h1>Services</h1>
-            <div class="flexslider">
-              <ul class="slides">
-                <li>
-                  <a href="services.html"><img src="img/iPad-Pro-Mockup.png" /></a>
-                </li>
-                <li>
-                  <img src="img/iphone-silver.jpg" />
-                </li>
-                <li>
-                  <img src="img/mac-services-mockup.png" />
-                </li>
-              </ul>
-            </div>
-          </section>
+        
+
 
         <!-- End Services Slider Section -->
 
@@ -198,7 +268,7 @@
 
         <section id="projects">
 
-          <h1 class="intro-heading">Projects</h1>
+          <h2 class="intro-heading">Projects</h2>
           <div class="image-inline-left">
             <div class="img-inline">
               <img src="img/bh_iphone6_mockup.jpg" alt="">
@@ -237,11 +307,11 @@
           
          
           <!-- Footer section -->
-         <footer class="footer-no-image bg-blue" role="contentinfo">
+         <footer class="footer-white" role="contentinfo">
             <div class="footer-logo">
-              <img src="img/bh-logo-white-clear.png" alt="Logo image">
+              <img src="img/bh-logo-blue.png" alt="Logo image">
             </div>
-              <div class="footer-links">
+              <div class="footer-links text-blue">
               <ul>
                 <li><h3>Content</h3></li>
                 <li><a href="services.html">Services</a></li>
@@ -277,6 +347,7 @@
       <script src="js/jquery-2.1.1.js"></script>
       <script src="js/main.js"></script> <!-- Resource jQuery -->
       <script src="js/scroll.js"></script>
+      <script src="js/hero-slider.js"></script>
       <script src="js/classie.js"></script>
       <script src="js/mock-slideshow.js"></script>
       <script src="js/jquery.flexslider.js"></script>
@@ -288,6 +359,13 @@
       </script>
 
       <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75242311-1', 'auto');
+        ga('send', 'pageview');
 
       </script>
 

@@ -1,8 +1,8 @@
 //variables
 
 $step-1-delay: 0s;
-$step-2-delay: 1s;
-$step-3-delay: 2s;
+$step-2-delay: 0.7s;
+$step-3-delay: 1.4s;
 
 
 
@@ -48,8 +48,8 @@ $step-3-delay: 2s;
 
 .step-1 {
 	opacity: 1;
-	stroke: lighten($text-color, 20%);
-	stroke-width: 0.3;
+	stroke: #fff;
+	stroke-width: 1;
 	stroke-dasharray: 58;
 	stroke-dashoffset: 55;
 
@@ -59,8 +59,8 @@ $step-3-delay: 2s;
 
 .step-2 {
 	opacity: 1;
-	stroke: lighten($text-color, 20%);
-	stroke-width: 0.3;
+	stroke: #fff;
+	stroke-width: 1;
 	stroke-dasharray: 105;
 	stroke-dashoffset: 105;
 	animation: offset 2s linear 0s forwards;
@@ -72,8 +72,8 @@ $step-3-delay: 2s;
 
 .step-3 {
 	opacity: 1;
-	stroke: lighten($text-color, 20%);
-	stroke-width: 0.3;
+	stroke: #fff;
+	stroke-width: 0.9;
 	stroke-dasharray: 90;
 	stroke-dashoffset: 90;
 	animation: offset 1.8s linear 0s forwards;

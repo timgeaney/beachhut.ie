@@ -5,6 +5,8 @@
 
 
 
+
+
 	svg {
 		display: block;
 		margin: auto;
@@ -25,14 +27,16 @@
     
 
 	h5 {
-		margin-top: 1em;
-		color: #02aedc;
+		margin-top: 2em;
+		color: #fff;
 		animation: none;
+		border-bottom: none;
 	}
 	
 	p {
 		text-align: center;
 		padding-bottom: 2em;
+		color: #fff;
 
 	}
 
@@ -61,12 +65,24 @@
 	}
 }
 
+.step-lime {
+	background-color: rgba(236, 165, 199, 0.9);
+
+}
+
 .step {
 	margin-right: 0;
+	padding: 2em;
+	border-radius: 50%;
+	max-width: 400px;
+	height: 400px;
+	// animation: fadeInUp 2s .4s backwards;
+	@include span-columns(12);
+
+
 	@include MQ(M) {
        @include span-columns(4);
     }
-	@include span-columns(12);
 
 	h5 {
 		text-align: center;
