@@ -763,9 +763,14 @@ html, body {
           animation: fadeInDown 2s .2s backwards; }
   @media only screen and (min-width: 768px) {
     .tag-line {
-      top: 35px;
-      left: 105px;
-      font-size: 0.8em; } }
+      top: 43px;
+      left: 95px;
+      font-size: 0.6em; } }
+  @media only screen and (min-width: 1170px) {
+    .tag-line {
+      top: 26px;
+      left: 95px;
+      font-size: 1em; } }
 
 .bh-secondary-nav {
   position: absolute;
@@ -775,7 +780,7 @@ html, body {
   display: none; }
   .bh-secondary-nav li {
     display: inline-block;
-    margin-left: 2.2em; }
+    margin-left: 2em; }
   .bh-secondary-nav a {
     display: inline-block;
     text-transform: none;
@@ -1394,13 +1399,13 @@ html, body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
-  background: #ccc;
-  color: #fff;
+  background: #f7f7f7;
+  color: #797e83;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
   .btn-white:hover {
     padding-right: 3em;
-    background: #d9d9d9;
-    color: #fff; }
+    background: white;
+    color: #797e83; }
 
 .btn-orange {
   display: inline-block;
@@ -2494,7 +2499,7 @@ main {
   box-shadow: none; }
 
 .cd-section {
-  padding: 2em 0;
+  padding-bottom: 2em;
   text-align: center; }
   .cd-section .cd-container {
     /* this modifies the .cd-container default max-width */
@@ -2511,12 +2516,12 @@ main {
     font-size: 1em; }
   @media only screen and (min-width: 768px) {
     .cd-section {
-      padding: 4em; }
+      padding-bottom: 4em; }
       .cd-section p {
         font-size: 1.2em; } }
   @media only screen and (min-width: 1170px) {
     .cd-section {
-      padding: 6em; }
+      padding-bottom: 6em; }
       .cd-section h1 {
         font-size: 3.6em;
         margin-bottom: 2em; }
@@ -4329,7 +4334,7 @@ Single slide style
   background-image: url("../assets/tech-2-mobile.jpg"); }
 .cd-hero-slider li:nth-of-type(4) {
   background-color: #ffffff;
-  background-image: url("../assets/video-replace-mobile.jpg"); }
+  background-image: url("../img/bh-creative.png"); }
 .cd-hero-slider li:nth-of-type(5) {
   background-color: #ffffff;
   background-image: url(../img/mac-moc.jpg); }

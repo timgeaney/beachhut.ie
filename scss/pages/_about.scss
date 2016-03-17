@@ -117,7 +117,7 @@ main {
 }
 
 .cd-section {
-  padding: 2em 0;
+  padding-bottom: 2em;
   text-align: center;
 
   .cd-container {
@@ -141,7 +141,7 @@ main {
   }
 
   @include MQ(M) {
-    padding: 4em;
+    padding-bottom: 4em;
 
     p {
       font-size: 1.2em;
@@ -149,7 +149,7 @@ main {
   }
 
   @include MQ(L) {
-    padding: 6em;
+    padding-bottom: 6em;
 
     h1 {
       font-size: 3.6em;

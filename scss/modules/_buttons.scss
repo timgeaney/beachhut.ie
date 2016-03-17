@@ -36,7 +36,7 @@ $color-5: #02aedc; // Cinnabar
   &:hover {
     padding-right: 3em;
     background: lighten($color, 5%);
-    color: #fff;
+    color: $text-color;
 
   }
 }
@@ -68,7 +68,7 @@ $color-5: #02aedc; // Cinnabar
 .btn-dark { @include btn(#252525, #fff); }
 .btn-purple { @include btn(#8861aa, #fff); }
 .btn-red { @include btn(#d62323, #fff); }
-.btn-white { @include btn(#ccc, #fff); }
+.btn-white { @include btn(#f7f7f7, #797e83); }
 .btn-orange { @include btn(#d4522d, #fff); }
 .btn-purple-nurple { @include btn(#aa87ff, #fff); }
 

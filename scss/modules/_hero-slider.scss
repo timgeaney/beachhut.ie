@@ -122,7 +122,7 @@ Single slide style
 
 	li:nth-of-type(4) {
 	 	background-color: $color-1;
-	 	background-image: url('../assets/video-replace-mobile.jpg');
+	 	background-image: url('../img/bh-creative.png');
 	}
 
 	li:nth-of-type(5) {
@@ -485,7 +485,7 @@ Slider navigation
 
 	li:first-of-type a::before {
 		background-position: 0 0;
-	
+
 	}
 
 	li.selected:first-of-type a::before {

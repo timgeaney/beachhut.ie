@@ -176,9 +176,14 @@ html, body {
 	animation: fadeInDown 2s .2s backwards;
 
 		@include MQ(M) {
-			top: 35px;
-			left: 105px;
-			font-size: 0.8em;
+			top: 43px;
+			left: 95px;
+			font-size: 0.6em;
+		}
+		@include MQ(L) {
+			top: 26px;
+			left: 95px;
+			font-size: 1em;
 		}
 	}
 
@@ -191,7 +196,7 @@ html, body {
 
 	li {
 		display: inline-block;
-		margin-left: 2.2em;
+		margin-left: 2em;
 	
 	}
 
