@@ -4,13 +4,10 @@
 
 $color-1: #fff; // blue
 $color-2: darken(#e3e3e3 , 0%); //
-$color-3: #02aedc; // white
+$color-3: #02aedc;
+$color-4: lighten(#02aedc, 10%); // white
+ // white
 
-$color-4: #40E0D0; 
-$color-5: #8861AA; 
-$color-6: #d4522d; 
-$color-7: #82CE09; 
-$color-8: #d62323; 
 
 
 
@@ -69,6 +66,7 @@ html, body {
 	height: 100%;
 }
 
+
 .bh-header {
 	position: absolute;
 	top: 0;
@@ -76,7 +74,7 @@ html, body {
 	height: $header-height-S;
 	width: 100%;
 	z-index: $header-zindex;
-	// box-shadow: 0 1px 2px rgba(#000, .3);
+	box-shadow: 0 1px 2px rgba(#000, .3);
 	box-shadow: none;
 
 	@include font-smoothing;
@@ -122,25 +120,6 @@ html, body {
 	}
 }
 
-.bh-header-blue {
-	background: rgba($color-1, .95) !important;
-}
-
-.bh-header-lime {
-	background: rgba($color-7, .95) !important;
-}
-
-.bh-header-red {
-	background: rgba($color-8, .95) !important;
-}
-
-.bh-header-turquoise {
-	background: rgba($color-4, .95) !important;
-}
-
-.bh-header-purple {
-	background: rgba($color-5, .95) !important;
-}
 
 .bh-logo {
 	display: block;
@@ -202,10 +181,11 @@ html, body {
 
 	a {
 		display: inline-block;
-		text-transform: none;
+		text-transform: uppercase;
+		font-weight: 700;
 		color: $color-3;
 		&:hover {
-			border-bottom: 1px solid $color-3;
+			
 		}
 		
 	}
@@ -408,59 +388,7 @@ html, body {
 	}
 }
 
-.bh-intro {
-	position: relative;
-	height: 100%;
-	background: url('../img/office-work.png') no-repeat top center;
-	background-size: cover;
-	z-index: $content-zindex;
-	@include font-smoothing;
 
-	.frosted {
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		min-width: 360px;
-	 background-color: rgba(255, 255, 255, 0.3);
-
-		 // background-color: rgba(2, 174, 220, 0.3);
-		// background-color: rgba(212, 82, 45, 0.25);
-		// background-color: rgba(136, 97, 170, 0.3);
-		// background-color: rgba(37, 37, 37, 0.7);
-
-		@include center(x);
-	}
-
-	a {
-		position: absolute;
-		@include center;
-
-
-	}
-
-	h1 {
-		position: absolute;
-		width: 90%;
-		max-width: $L;
-		top: 35%;
-		@include center(x);
-
-		color: #252525;
-		font-size: 1.6em;
-		font-weight: 300;
-		text-align: center;
-	}
-
-	@include MQ(M) {
-		h1 {
-			font-size: 2em;
-		}
-	}
-
-	@include MQ(L) {
-		height: 700px;
-	}
-}
 
 // Main content container
 
@@ -471,63 +399,3 @@ html, body {
 	
 }
 
-// differnet header colors
-
-.bg-white {
-	background: transparent;
-	a {
-		color: #02aedc;
-	}
-
-	
-
-	.tag-line {
-		color: #02aedc;
-	}
-
-	.font-blue {
-		h1 a {
-			color: $color-3 !important;
-		}
-	}
-
-
-
-	.bh-primary-nav-trigger {
-
-		.bh-menu-text {
-			color: $color-3;
-		}
-
-		span.bh-menu-text-blue {
-			a {
-				color: $color-3;	
-			}
-		}
-		
-	}
-
-
-.nav-trigger-blue {
-	color: #02aedc;
-
-		.bh-menu-text {
-			color: #02aedc;
-		}
-
-		
-	}
-
-
-
-
-}
-
-.pd-top-40 {
-	padding-top: 40px;
-}
-
-
-.bh-menu-round {
-	
-}

@@ -739,6 +739,7 @@ html, body {
   height: 50px;
   width: 100%;
   z-index: 3;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -774,21 +775,6 @@ html, body {
       .bh-header.menu-is-open {
         /* add a background color to the header when the navigation is open */
         background-color: rgba(255, 255, 255, 0.96); } }
-
-.bh-header-blue {
-  background: rgba(255, 255, 255, 0.95) !important; }
-
-.bh-header-lime {
-  background: rgba(130, 206, 9, 0.95) !important; }
-
-.bh-header-red {
-  background: rgba(214, 35, 35, 0.95) !important; }
-
-.bh-header-turquoise {
-  background: rgba(64, 224, 208, 0.95) !important; }
-
-.bh-header-purple {
-  background: rgba(136, 97, 170, 0.95) !important; }
 
 .bh-logo {
   display: block;
@@ -839,10 +825,9 @@ html, body {
     margin-left: 2em; }
   .bh-secondary-nav a {
     display: inline-block;
-    text-transform: none;
+    text-transform: uppercase;
+    font-weight: 700;
     color: #02aedc; }
-    .bh-secondary-nav a:hover {
-      border-bottom: 1px solid #02aedc; }
   @media only screen and (min-width: 768px) {
     .bh-secondary-nav {
       display: block; } }
@@ -1007,75 +992,34 @@ html, body {
       font-size: 16px;
       font-size: 1rem; } }
 
-.bh-intro {
-  position: relative;
-  height: 100%;
-  background: url("../img/office-work.png") no-repeat top center;
-  background-size: cover;
-  z-index: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-  .bh-intro .frosted {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    min-width: 360px;
-    background-color: rgba(255, 255, 255, 0.3);
-    left: 50%;
-    right: auto;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%); }
-  .bh-intro a {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%); }
-  .bh-intro h1 {
-    position: absolute;
-    width: 90%;
-    max-width: 1170px;
-    top: 35%;
-    left: 50%;
-    right: auto;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    color: #252525;
-    font-size: 1.6em;
-    font-weight: 300;
-    text-align: center; }
-  @media only screen and (min-width: 768px) {
-    .bh-intro h1 {
-      font-size: 2em; } }
-  @media only screen and (min-width: 1170px) {
-    .bh-intro {
-      height: 700px; } }
-
 .bh-main-content {
   position: relative;
   z-index: 1; }
 
-.bg-white {
-  background: transparent; }
-  .bg-white a {
-    color: #02aedc; }
-  .bg-white .tag-line {
-    color: #02aedc; }
-  .bg-white .font-blue h1 a {
-    color: #02aedc !important; }
-  .bg-white .bh-primary-nav-trigger .bh-menu-text {
-    color: #02aedc; }
-  .bg-white .bh-primary-nav-trigger span.bh-menu-text-blue a {
-    color: #02aedc; }
-  .bg-white .nav-trigger-blue {
-    color: #02aedc; }
-    .bg-white .nav-trigger-blue .bh-menu-text {
-      color: #02aedc; }
-
-.pd-top-40 {
-  padding-top: 40px; }
+.header-white .bh-header.is-fixed {
+  /* when the user scrolls down, we hide the header right above the viewport */
+  background-color: rgba(2, 174, 220, 0.96); }
+.header-white .bh-header.is-visible {
+  /* if the user changes the scrolling direction, we show the header */
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0); }
+.header-white .bh-header.menu-is-open {
+  /* add a background color to the header when the navigation is open */
+  background-color: rgba(2, 174, 220, 0.96); }
+.header-white .bh-primary-nav {
+  background: rgba(2, 174, 220, 0.95); }
+.header-white .bh-menu-text,
+.header-white a,
+.header-white h1 {
+  color: #fff; }
+.header-white .bh-menu-icon,
+.header-white .bh-menu-icon::before,
+.header-white .bh-menu-icon::after {
+  background-color: #fff; }
+.header-white .bh-menu-icon.is-clicked {
+  background-color: rgba(255, 255, 255, 0); }
+  .header-white .bh-menu-icon.is-clicked::before, .header-white .bh-menu-icon.is-clicked::after {
+    background-color: white; }
 
 /* ==========================================================================
    footer dir= scss/modules/footer.scss
@@ -1589,7 +1533,7 @@ Primary style
 
 -------------------------------- */
 a {
-  color: #d62323;
+  color: #797e83;
   text-decoration: none; }
 
 #bh-contact-info {
@@ -1607,7 +1551,7 @@ a {
     padding-top: 2em;
     width: 100%;
     float: left;
-    background-color: #d62323;
+    background-color: #9AD3DE;
     height: 500px;
     text-align: left; }
     #bh-contact-info .contact-us .contact-us-inner {
@@ -1639,7 +1583,7 @@ a {
     padding-top: 2em;
     width: 100%;
     float: left;
-    background-color: #d62323;
+    background-color: #9AD3DE;
     min-height: 900px; }
     #bh-contact-info .contact-you .contact-us-inner {
       margin-left: 10%; }
@@ -2079,7 +2023,7 @@ FLoating labels
   position: relative;
   width: 100%;
   height: 400px;
-  background-color: #d62323; }
+  background-color: #cacaca; }
   @media only screen and (min-width: 768px) {
     #google-container {
       height: 500px; } }
@@ -2095,7 +2039,7 @@ FLoating labels
     bottom: 0;
     left: 0;
     padding: 1em 1em;
-    background-color: rgba(214, 35, 35, 0.9);
+    background-color: rgba(202, 202, 202, 0.9);
     color: #d6d7d9;
     font-size: 13px;
     font-size: 0.8125rem; }
@@ -2110,12 +2054,12 @@ FLoating labels
   width: 32px;
   cursor: pointer;
   margin-left: 10px;
-  background-color: rgba(214, 35, 35, 0.9);
+  background-color: rgba(202, 202, 202, 0.9);
   background-repeat: no-repeat;
   background-size: 32px 64px;
   background-image: url("../img/cd-icon-controller.svg"); }
   .no-touch #bh-zoom-in:hover, .no-touch #bh-zoom-out:hover {
-    background-color: #d62323; }
+    background-color: #cacaca; }
   @media only screen and (min-width: 768px) {
     #bh-zoom-in, #bh-zoom-out {
       margin-left: 50px; } }
@@ -2951,8 +2895,8 @@ xkeyframes
           height: 12px;
           width: 240px; } }
 
-#her0-srevices img {
-  width: 100%; }
+#hero-services {
+  background-image: url("../img/color-pencil.jpg"); }
 
 #services {
   max-width: 100%;

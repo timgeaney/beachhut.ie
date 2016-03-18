@@ -4,6 +4,8 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
+        <meta name="google-site-verification"
+        content="MEpHeWxJEVSBH4e8ke6vCR57aDeQSyl0ZNg7RayvulA" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>beach hut - Web Design & Development</title>
@@ -12,40 +14,71 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
-        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"> 
-
+       
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">  
         <link rel="stylesheet" href="css/app.css">
+        <!-- <link rel="stylesheet" href="css/flexslider.css"> -->
+
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
     </head>
-    <body id="index">
+    <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-<!--       <main> -->
- <main class="bh-main">
-
-       <header class="bh-header bg-blue">
-          <div class="bh-logo"><a href="index.html"><img src="img/img/bh-logo-white-clear.png" alt="Logo"></a></div>
-          <div class="tag-line">
+       <header class="bh-header">
+          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-blue.png" alt="Logo"></a></div>
+          <div class="tag-line font-blue">
             <h1>beach hut</h1>
           </div>
 
           <nav>
             <ul class="bh-secondary-nav">
-              
+              <li><label for="modal-1">
+                <div class="btn btn-yellow-orange btn-modal modal-trigger">Hire Us</div>
+              </label></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Free Consultation</a></li>
             </ul>
           </nav> <!-- bh-nav -->
 
-          <a class="bh-primary-nav-trigger bg-blue" href="#0">
+
+          <a class="bh-primary-nav-trigger" href="#0">
+
             <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
           </a> <!-- bh-primary-nav-trigger -->
         </header>
 
+        <!-- modal hire us button-->
+
+        <div class="modal">
+          
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-fade-screen">
+            <div class="modal-inner">
+              <div class="modal-close" for="modal-1"></div>
+              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
+            
+              <p class="modal-intro">If you need help planning a web project or have one ready to go why not reach out. We can help.</p>
+              <ul>
+                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
+                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhut.ie</a></li>
+                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
+              </ul>
+                <p></p>
+              <p class="modal-content"></p>
+              
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- end modal hire us button section -->
+
         <nav>
           <ul class="bh-primary-nav">
-            <li class="bh-label">About us</li>
+            <li class="bh-label pd-top-40">About us</li>
 
             <li><a href="about.html">The team</a></li>
             <li><a href="services.html">Our services</a></li>
@@ -62,110 +95,21 @@
             
             <li class="bh-social bh-facebook"><a href="#0">Facebook</a></li>
             <li class="bh-social bh-instagram"><a href="#0">Instagram</a></li>
-            <li class="bh-social bh-dribbble"><a href="#0">Dribbble</a></li>
             <li class="bh-social bh-twitter"><a href="#0">Twitter</a></li>
           </ul>
         </nav>
 
-        <!-- modal hire us button-->
+        <main class="bh-main-content">
 
-        <div class="modal">
-          <label for="modal-1">
-             <div class=" bg-clear-dark btn-modal modal-trigger"><i class="fa fa-phone"></i></div>
-          </label>
-          <input class="modal-state" id="modal-1" type="checkbox" />
-          <div class="modal-fade-screen">
-            <div class="modal-inner">
-              <div class="modal-close" for="modal-1"></div>
-              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
-            
-              <p class="modal-intro">If you have a project ready to go or you just need advice why not give us a call.</p>
-              <ul>
-                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
-                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhutinc.com</a></li>
-                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
-              </ul>
-                <p></p>
-              <p class="modal-content"></p>
-              
-              <p></p>
-            </div>
-          </div>
-        </div>
-
-        <!-- end modal hire us button section -->
-
-       
-        <section id="projects-intro">
-          <h1>A selection of our work</h1>  
-        </section>
-   
-
-        <ul class="bh-gallery">
-          <li class="bh-item">
-            <a href="item-1.html">
-              <div>
-                <h2>Title 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <b>View More</b>
-              </div>
-            </a>
-          </li>
-
-          <li class="bh-item">
-            <a href="item-2.html">
-              <div>
-                <h2>Title 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <b>View More</b>
-              </div>
-            </a>
-          </li>
-
-          <li class="bh-item">
-            <a class="dark-text" href="item-3.html">
-              <div>
-                <h2>Title 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <b>View More</b>
-              </div>
-            </a>
-          </li>
-
-          <li class="bh-item">
-            <a href="item-4.html">
-              <div>
-                <h2>Title 4</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <b>View More</b>
-              </div>
-            </a>
-          </li>
-        </ul> <!-- .bh-gallery -->
-      </main> <!-- .bh-main -->
-
-      <div class="bh-folding-panel">
-        
-        <div class="fold-left"></div> <!-- this is the left fold -->
-        
-        <div class="fold-right"></div> <!-- this is the right fold -->
-        
-        <div class="bh-fold-content">
-          <!-- content will be loaded using javascript -->
-        </div>
-
-        <a class="bh-close" href="#0"></a>
-      </div> <!-- .bh-folding-panel -->
-
-
-        
-        
+          
+          
+         
           <!-- Footer section -->
-         <footer class="footer-no-image bg-blue" role="contentinfo">
+         <footer class="footer-white" role="contentinfo">
             <div class="footer-logo">
-              <img src="img/bh-logo-white-clear.png" alt="Logo image">
+              <img src="img/bh-logo-blue.png" alt="Logo image">
             </div>
-              <div class="footer-links">
+              <div class="footer-links text-blue">
               <ul>
                 <li><h3>Content</h3></li>
                 <li><a href="services.html">Services</a></li>
@@ -192,16 +136,76 @@
             <p>copyright beach_hut 2015</p>
                 
         </footer>
-        <div class="cd-overlay"></div>
         <a href="#0" class="bh-top">Top</a>
-    <!--     </main> -->
 
-        
+        </main>
 
-      <a href="#0" class="cd-member-bio-close">Close</a>
+       
 
       <script src="js/jquery-2.1.1.js"></script>
-      <script src="js/main.js"></script> 
-      <script src="js/project.js"></script> 
+      <script src="js/main.js"></script> <!-- Resource jQuery -->
+      <script src="js/scroll.js"></script>
+      <script src="js/hero-slider.js"></script>
+      <script src="js/classie.js"></script>
+      <script src="js/mock-slideshow.js"></script>
+      <script src="js/jquery.flexslider.js"></script>
+      <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+          $('.flexslider').flexslider();
+
+        });
+      </script>
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75242311-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+
+      <script>
+        (function() {
+          new Slideshow( document.getElementById( 'slideshow' ) );
+
+          /* Mockup responsiveness */
+          var body = docElem = window.document.documentElement,
+            wrap = document.getElementById( 'wrap' ),
+            mockup = wrap.querySelector( '.mockup' ),
+            mockupWidth = mockup.offsetWidth;
+
+          scaleMockup();
+
+          function scaleMockup() {
+            var wrapWidth = wrap.offsetWidth,
+              val = wrapWidth / mockupWidth;
+
+            mockup.style.transform = 'scale3d(' + val + ', ' + val + ', 1)';
+            mockup.style.WebkitTransform = 'scale3d(' + val + ', ' + val + ', 1)';
+
+          }
+          
+          window.addEventListener( 'resize', resizeHandler );
+
+          function resizeHandler() {
+            function delayed() {
+              resize();
+              resizeTimeout = null;
+            }
+            if ( typeof resizeTimeout != 'undefined' ) {
+              clearTimeout( resizeTimeout );
+            }
+            resizeTimeout = setTimeout( delayed, 50 );
+          }
+
+          function resize() {
+            scaleMockup();
+          }
+        })();
+      </script>
+
     </body>
 </html>
