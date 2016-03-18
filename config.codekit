@@ -2644,6 +2644,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bh-contact.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 986491,
+		"inputAbbreviatedPath": "\/img\/bh-contact.jpg",
+		"outputAbbreviatedPath": "\/img\/bh-contact.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bh-creative.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2919,6 +2930,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/color-pencil.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555360,
+		"inputAbbreviatedPath": "\/img\/color-pencil.jpg",
+		"outputAbbreviatedPath": "\/img\/color-pencil.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/color-scrapping.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 498692,
+		"inputAbbreviatedPath": "\/img\/color-scrapping.jpg",
+		"outputAbbreviatedPath": "\/img\/color-scrapping.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/cropped-mac-ac.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2948,6 +2981,17 @@
 		"initialSize": 2.12472e+06,
 		"inputAbbreviatedPath": "\/img\/girl-mobile.png",
 		"outputAbbreviatedPath": "\/img\/girl-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-img-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 267741,
+		"inputAbbreviatedPath": "\/img\/hero-img-1.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-img-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3245,6 +3289,17 @@
 		"initialSize": 2112,
 		"inputAbbreviatedPath": "\/img\/small\/4.png",
 		"outputAbbreviatedPath": "\/img\/small\/4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/watercolor-blue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 790849,
+		"inputAbbreviatedPath": "\/img\/watercolor-blue.jpg",
+		"outputAbbreviatedPath": "\/img\/watercolor-blue.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

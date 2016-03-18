@@ -387,6 +387,62 @@ th {
 .float-left {
   float: left; }
 
+/**
+ * ----------------------------------------------------------------------------------------
+ * UTILITIES.
+ * ----------------------------------------------------------------------------------------
+ */
+.float-right {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+.bg-purple {
+  background-color: #8861AA; }
+
+.bg-black {
+  background-color: #252525; }
+
+.bg-blue {
+  background-color: #02aedc; }
+
+.bg-red {
+  background-color: #d62323; }
+
+.bg-darkblue {
+  background-color: #1b49be; }
+
+.bg-lime {
+  background-color: #82CE09; }
+
+.bg-orange {
+  background-color: #d4522d; }
+
+.bg-purple-nurple {
+  background-color: #ab87ff; }
+
+.bg-clear-blue {
+  background-color: rgba(2, 174, 220, 0.3); }
+
+.bg-clear-dark {
+  background-color: rgba(37, 37, 37, 0.3); }
+
+.bg-turquoise {
+  background-color: #40E0D0; }
+
+.bg-lightblue {
+  background-color: #9ad3de; }
+
+.bg-darkblue {
+  background-color: #89bdd3; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-lightgrey {
+  background-color: #e3e3e3; }
+
 /* ==========================================================================
    Typography
    ========================================================================== */
@@ -1443,6 +1499,24 @@ html, body {
     background: #bca1ff;
     color: #fff; }
 
+.btn-yellow-orange {
+  display: inline-block;
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  position: relative;
+  background: #eb950c;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.18); }
+  .btn-yellow-orange:hover {
+    padding-right: 3em;
+    background: #f4a11d;
+    color: #fff; }
+
 .ghost-button-blue {
   border: 2px solid;
   border-color: #02aedc;
@@ -1954,7 +2028,7 @@ FLoating labels
 .step {
   margin-right: 0;
   padding: 2em;
-  border-radius: 50%;
+  border-radius: 5px;
   max-width: 400px;
   height: 400px;
   float: left;
@@ -2381,7 +2455,7 @@ FLoating labels
 .step {
   margin-right: 0;
   padding: 2em;
-  border-radius: 50%;
+  border-radius: 5px;
   max-width: 400px;
   height: 400px;
   float: left;
@@ -2876,6 +2950,9 @@ xkeyframes
         #hero-big-text .hero-text hr.big-hr {
           height: 12px;
           width: 240px; } }
+
+#her0-srevices img {
+  width: 100%; }
 
 #services {
   max-width: 100%;
@@ -3488,7 +3565,7 @@ Javascript disabled
 .step-1 {
   opacity: 1;
   stroke: #fff;
-  stroke-width: 1;
+  stroke-width: 0.8;
   stroke-dasharray: 58;
   stroke-dashoffset: 55;
   -webkit-animation: offset 1.5s linear 0s forwards;
@@ -3497,7 +3574,7 @@ Javascript disabled
 .step-2 {
   opacity: 1;
   stroke: #fff;
-  stroke-width: 1;
+  stroke-width: 0.8;
   stroke-dasharray: 105;
   stroke-dashoffset: 105;
   -webkit-animation: offset 2s linear 0s forwards;
@@ -3510,7 +3587,7 @@ Javascript disabled
 .step-3 {
   opacity: 1;
   stroke: #fff;
-  stroke-width: 0.9;
+  stroke-width: 0.8;
   stroke-dasharray: 90;
   stroke-dashoffset: 90;
   -webkit-animation: offset 1.8s linear 0s forwards;
@@ -4269,6 +4346,16 @@ img {
 Main Components 
 
 -------------------------------- */
+.frosted {
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.6);
+  max-width: 600px;
+  margin: auto;
+  border-radius: 5px; }
+
+.hero-btn {
+  margin-top: 0; }
+
 /* -------------------------------- 
 
 Slider
@@ -4282,7 +4369,7 @@ Slider
 
 .cd-hero-slider {
   position: relative;
-  height: 360px;
+  height: 400px;
   overflow: hidden; }
   .cd-hero-slider li {
     position: absolute;
@@ -4309,7 +4396,7 @@ Slider
       transition: transform 0.5s, -webkit-transform 0.5s; }
   @media only screen and (min-width: 768px) {
     .cd-hero-slider {
-      height: 500px; } }
+      height: 520px; } }
   @media only screen and (min-width: 1170px) {
     .cd-hero-slider {
       height: 680px; } }
@@ -4325,7 +4412,7 @@ Single slide style
   background-repeat: no-repeat; }
 .cd-hero-slider li:first-of-type {
   background-color: #ffffff;
-  background-image: url("../img/bh-home-intro.jpg"); }
+  background-image: url("../img/color-pencil.jpg"); }
 .cd-hero-slider li:nth-of-type(2) {
   background-color: white;
   background-image: url("../assets/tech-1-mobile.jpg"); }
@@ -4393,7 +4480,7 @@ Single slide style
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   line-height: 1.2;
   margin: 0 auto 14px;
-  color: #9fa8a3;
+  color: #6b7670;
   width: 90%;
   max-width: 400px; }
 .cd-hero-slider h2 {
@@ -4409,7 +4496,7 @@ Single slide style
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #9fa8a3;
+  color: #6b7670;
   text-transform: uppercase;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   -webkit-transition: background-color 0.2s;
@@ -4446,7 +4533,7 @@ Single slide style
   .cd-hero-slider h2, .cd-hero-slider p {
     max-width: 520px; }
   .cd-hero-slider h2 {
-    font-size: 2.4em;
+    font-size: 2em;
     font-weight: 300; }
   .cd-hero-slider .cd-btn {
     font-size: 1.4rem; } }
@@ -4569,7 +4656,7 @@ Slider navigation
     width: 60px;
     height: 100%;
     color: #02aedc;
-    background-color: #9fa8a3;
+    background-color: #d0d0d0;
     box-shadow: inset 0 2px 0 currentColor;
     -webkit-transition: -webkit-transform 0.2s, box-shadow 0.2s;
     -webkit-transition: box-shadow 0.2s, -webkit-transform 0.2s;
@@ -4668,7 +4755,7 @@ Main content
   .cd-main-content p {
     font-size: 1.4rem;
     line-height: 1.8;
-    color: #3a413d;
+    color: #0a0b0a;
     margin: 2em 0; }
   @media only screen and (min-width: 1170px) {
     .cd-main-content {
@@ -4886,41 +4973,5 @@ Javascript disabled
     .share_box i:hover {
       color: #02aedc;
       cursor: #02aedc; }
-
-.bg-purple {
-  background-color: #8861AA; }
-
-.bg-black {
-  background-color: #252525; }
-
-.bg-blue {
-  background-color: #02aedc; }
-
-.bg-red {
-  background-color: #d62323; }
-
-.bg-darkblue {
-  background-color: #1b49be; }
-
-.bg-lime {
-  background-color: #82CE09; }
-
-.bg-orange {
-  background-color: #d4522d; }
-
-.bg-purple-nurple {
-  background-color: #ab87ff; }
-
-.bg-clear-blue {
-  background-color: rgba(2, 174, 220, 0.3); }
-
-.bg-clear-dark {
-  background-color: rgba(37, 37, 37, 0.3); }
-
-.bg-turquoise {
-  background-color: #40E0D0; }
-
-.bg-white {
-  background-color: #fff; }
 
 /*# sourceMappingURL=app.css.map */

@@ -71,6 +71,8 @@ $color-5: #02aedc; // Cinnabar
 .btn-white { @include btn(#f7f7f7, #797e83); }
 .btn-orange { @include btn(#d4522d, #fff); }
 .btn-purple-nurple { @include btn(#aa87ff, #fff); }
+.btn-yellow-orange { @include btn($yellow-orange, #fff); }
+
 
 
 // Ghost buttons

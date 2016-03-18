@@ -35,6 +35,12 @@ $grey  : #797e83;
 
 // Services
 
+#her0-srevices {
+  img {
+    width: 100%;
+  }
+}
+
 
 #services {
   @include outer-container(100%);
