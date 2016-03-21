@@ -822,7 +822,7 @@ html, body {
   display: none; }
   .bh-secondary-nav li {
     display: inline-block;
-    margin-left: 2em; }
+    margin-left: 1em; }
   .bh-secondary-nav a {
     display: inline-block;
     text-transform: uppercase;
